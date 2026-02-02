@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Module Web</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            background-image: url(bg.jpg);
+            font-family: Arial, sans-serif;
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .login-container {
+            max-width: 290px;
+            width: 50%;
+            height: 70%;
+            padding: 50px;
+            background-color: #c91e41;
+            border-radius: 20px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            color: #fff;
+        }
+        .login-container img {
+            width: 90px;
+            margin-bottom: 5px;
+        }
+        .input-group {
+            position: relative;
+            margin-bottom: 20px;
+            text-align: left;
+        }
+        input[type="text"],
+        input[type="password"] {
+            width: 100%;
+            padding: 12px 40px;
+            border: none;
+            border-radius: 20px;
+            outline: none;
+            background-color: #f1f1f1;
+            color: #333;
+            box-sizing: border-box;
+        }
+        .input-group label {
+            position: absolute;
+            left: 40px;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 14px;
+            color: #777;
+        }
+        .input-group .fa-user,
+        .input-group .fa-eye {
+            position: absolute;
+            top: 50%;
+            right: 15px;
+            transform: translateY(-50%);
+            color: #333;
+        }
+        .input-group .eye-icon {
+            right: 15px;
+            left: auto;
+            cursor: pointer;
+        }
+        button {
+            width: 100%;
+            padding: 12px;
+            border: none;
+            border-radius: 20px;
+            background-color: rgb(7, 7, 7);
+            color: #fff;
+            font-size: 16px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        button:hover {
+            background-color: #3bec13;
+        }
+
+        #passwordRequirements {
+            margin-top: 10px;
+            text-align: left;
+            font-size: 8px;
+            font-weight: bold;
+        }
+
+        #passwordRequirements ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        #passwordRequirements li {
+            color: rgb(255, 255, 255);
+            margin: 5px 0;
+        }
+
+        #passwordRequirements li.valid {
+            color: rgb(83, 240, 48);
+        }
+
+        #passwordRequirements li::before {
+            content: "• ";
+        }
+
+        #successMessage, #errorMessage {
+            display: none;
+            margin-top: 10px;
+            font-size: 16px;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        #successMessage {
+            color: green;
+            background-color: #e0f7e9;
+            border: 1px solid #d0f0c0;
+            border-radius: 10px;
+            padding: 10px;
+        }
+
+        #errorMessage {
+            color: red;
+            background-color: #f8d7da;
+            border: 1px solid #f5c6cb;
+            border-radius: 10px;
+            padding: 10px;
+        }
+
+        @media (max-width: 768px) {
+            .login-container {
+                max-width: 90%;
+                padding: 15px;
+            }
+            button {
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <img src="LoginProfileIcon.png" alt="Profile Icon">
+        <form id="loginForm">
+            <div class="input-group">
+                <input type="text" id="username" name="username" required placeholder="Username">
+                <i class="fas fa-user"></i>
+            </div>
+            <div class="input-group">
+                <input type="password" id="password" name="password" required placeholder="Password">
+                <i class="fas fa-eye eye-icon" id="togglePassword"></i>
+            </div>
+            <div id="passwordRequirements">
+                <p>PASSWORD REQUIREMENTS:</p>
+                <ul>
+                    <li id="length">At least 12 characters</li>
+                    <li id="uppercase">At least one uppercase letter</li>
+                    <li id="lowercase">At least one lowercase letter</li>
+                    <li id="number">At least one number</li>
+                    <li id="special">At least one symbol character</li>
+                </ul>
+            </div>
+            <button type="submit">Login</button>
+            <div id="successMessage">
+                <i class="fas fa-check-circle"></i>
+                <p>Login Successful. Redirecting...</p>
+            </div>
+            <div id="errorMessage">
+                <i class="fas fa-exclamation-circle"></i>
+                <p>Incorrect username or password. Please try again.</p>
+            </div>
+        </form>
+    </div>
+
+    <script>
+        const togglePassword = document.querySelector('#togglePassword');
+        const passwordInput = document.querySelector('#password');
+        const loginForm = document.querySelector('#loginForm');
+        const successMessage = document.querySelector('#successMessage');
+        const errorMessage = document.querySelector('#errorMessage');
+
+        togglePassword.addEventListener('click', function () {
+            const type = passwordInput.getAttribute('type') === 'password' ? 'text' : 'password';
+            passwordInput.setAttribute('type', type);
+            togglePassword.classList.toggle('fa-eye-slash');
+        });
+
+        document.getElementById('password').addEventListener('input', function() {
+            const password = this.value;
+            
+            const lengthRequirement = password.length >= 12;
+            const uppercaseRequirement = /[A-Z]/.test(password);
+            const lowercaseRequirement = /[a-z]/.test(password);
+            const numberRequirement = /[0-9]/.test(password);
+            const specialRequirement = /[!@#$%^&*(),.?":{}|<>]/.test(password);
+
+            document.getElementById('length').classList.toggle('valid', lengthRequirement);
+            document.getElementById('uppercase').classList.toggle('valid', uppercaseRequirement);
+            document.getElementById('lowercase').classList.toggle('valid', lowercaseRequirement);
+            document.getElementById('number').classList.toggle('valid', numberRequirement);
+            document.getElementById('special').classList.toggle('valid', specialRequirement);
+        });
+
+        loginForm.addEventListener('submit', function(event) {
+            event.preventDefault(); 
+
+            const username = document.getElementById('username').value;
+            const password = document.getElementById('password').value;
+
+            
+            const defaultUsername = "User";
+            const defaultPassword = "Christian123#";
+
+           
+            if (username === defaultUsername && password === defaultPassword) {
+                successMessage.style.display = 'block'; 
+
+                
+                setTimeout(() => {
+                    window.location.href = 'https://www.apple.com/ph/';
+                }, 2000);
+            } else {
+                errorMessage.style.display = 'block'; 
+            }
+        });
+    </script>
+</body>
+</html>

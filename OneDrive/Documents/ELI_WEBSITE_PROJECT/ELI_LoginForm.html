@@ -1,0 +1,140 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ELI Login Web</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        /* Basic styling for the form */
+        body {
+            background-image: url(bg.jpg);
+            font-family: Arial, sans-serif;
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .login-container {
+            max-width: 290px;
+            width: 50%;
+            height: 50%;
+            padding: 20px;
+            background-color: #000;
+            border-radius: 20px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            color: #fff;
+        }
+        .login-container img {
+            width: 50px;
+            margin-bottom: 10px;
+        }
+        .login-label {
+            margin-top: 5px;
+            margin-bottom: 10px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .input-group {
+            position: relative;
+            margin-bottom: 20px;
+            text-align: left;
+        }
+        input[type="text"],
+        input[type="password"] {
+            width: 100%;
+            padding: 12px 40px;
+            border: none;
+            border-radius: 20px;
+            outline: none;
+            background-color: #f1f1f1;
+            color: #333;
+            box-sizing: border-box;
+        }
+        .input-group label {
+            position: absolute;
+            left: 40px;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 14px;
+            color: #777;
+        }
+        .input-group .fa-user,
+        .input-group .fa-eye {
+            position: absolute;
+            top: 50%;
+            right: 15px;
+            transform: translateY(-50%);
+            color: #333;
+        }
+        .input-group .eye-icon {
+            right: 15px;
+            left: auto;
+            cursor: pointer;
+        }
+        button {
+            width: 100%;
+            padding: 12px;
+            border: none;
+            border-radius: 20px;
+            background-color: violet;
+            color: #fff;
+            font-size: 16px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        button:hover {
+            background-color: #d680ff;
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            .login-container {
+                max-width: 90%;
+                padding: 15px;
+            }
+            button {
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <img src="ProfileIcon.png" alt="Profile Icon"> <!-- Replace with your profile icon URL -->
+        <div class="login-label">Login</div>
+        <form method="post">
+            <div class="input-group">
+                <input type="text" id="username" name="username" required placeholder="Username">
+                <i class="fas fa-user"></i>
+            </div>
+            <div class="input-group">
+                <input type="password" id="password" name="password" required placeholder="Password">
+                <i class="fas fa-eye eye-icon" id="togglePassword"></i>
+            </div>
+            <button type="submit">Login</button>
+        </form>
+    </div>
+
+    <script>
+        const togglePassword = document.querySelector('#togglePassword');
+        const passwordInput = document.querySelector('#password');
+
+        togglePassword.addEventListener('click', function () {
+            const type = passwordInput.getAttribute('type') === 'password' ? 'text' : 'password';
+            passwordInput.setAttribute('type', type);
+            togglePassword.classList.toggle('fa-eye-slash');
+        });
+    </script>
+</body>
+</html>
+
+
+
+
+

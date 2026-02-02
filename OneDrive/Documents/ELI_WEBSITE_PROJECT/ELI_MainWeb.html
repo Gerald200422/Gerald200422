@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ELI IT SOLUTIONS SYSTEM</title>
+    <style>
+        /* Your existing CSS styles */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f4f8;
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #890f7f;
+            padding: 20px;
+            color: #050505;
+        }
+
+        .navbar .logo, .navbar .profile {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background-color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            position: relative;
+        }
+
+        .navbar .tabs {
+            display: flex;
+            justify-content: flex-end;
+            border-radius: 10px;
+            padding: 10px;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+
+        .navbar .tabs div {
+            padding: 10px 20px;
+            background-color: #f1f0f6;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            cursor: pointer;
+            text-align: center;
+            flex: 1;
+            min-width: 100px;
+            transition: background-color 0.3s ease;
+        }
+
+        .navbar .tabs div:hover {
+            background-color: rgb(24, 30, 123);
+        }
+
+        .navbar .tabs div.selected {
+            background-color: rgb(24, 30, 123);
+        }
+
+        .content {
+            display: none;
+            padding: 20px;
+        }
+
+        .content.active {
+            display: block;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+            flex-wrap: wrap;
+        }
+
+        .panel {
+            background-color: #782075;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            text-align: center;
+            width: 200px;
+            height: 200px;
+            margin: 20px;
+        }
+
+        .panel h2 {
+            margin: 0;
+            font-size: 20px;
+            color: #ffffff;
+        }
+
+        .panel p {
+            font-size: 48px;
+            margin: 10px 0 0;
+            color: #ffffff;
+        }
+        #profile-image {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+        }
+
+        .profile-dropdown {
+            display: none;
+            position: absolute;
+            top: 50px;
+            right: 0;
+            background-color: white;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+            padding: 10px;
+            z-index: 1000;
+        }
+
+        .profile-dropdown a {
+            display: block;
+            padding: 10px;
+            color: #000;
+            text-decoration: none;
+        }
+
+        .profile-dropdown a:hover {
+            background-color: rgb(0, 122, 252);
+        }
+        .search-bar {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        /* Table styles */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        /* Button styles */
+        .btn {
+            background-color: #517290;
+            color: #ffffff;
+            border: none;
+            padding: 8px 16px;
+            cursor: pointer;
+        }
+
+        .btn-view {
+            background-color: #890f7f;
+        }
+        /* Here is for the Report */
+           
+        .reportcontainer {
+            width: 80%;
+            margin: auto;
+            padding-top: 20px;
+        }
+        input[type="text"],
+        input[type="date"] {
+            margin-bottom: 10px;
+            padding: 5px;
+        }
+        button {
+            background-color: #890f7f;
+            border: none;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th, td {
+            text-align: left;
+            padding: 8px;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        th {
+            background-color: #890f7f;
+            color: white;
+        }
+        
+
+        /* Responsive styles */
+        @media screen and (max-width: 600px) {
+            .top-nav {
+                font-size: 14px;
+            }
+            .search-bar input {
+                width: 100%;
+            }
+            table {
+                font-size: 14px;
+            }
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            .navbar .tabs {
+                gap: 5px;
+                padding: 5px;
+            }
+
+            .navbar .tabs div {
+                padding: 8px 10px;
+                font-size: 14px;
+            }
+
+            .panel {
+                width: 150px;
+                padding: 15px;
+            }
+
+            .panel h2 {
+                font-size: 20px;
+            }
+
+            .panel p {
+                font-size: 36px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .navbar {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .navbar .tabs {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .navbar .tabs div {
+                padding: 5px 8px;
+                font-size: 12px;
+                flex: 1 1 100%;
+            }
+
+            .container {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .panel {
+                width: 100%;
+                max-width: 300px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <img class="logo" src="Companylogo.jpg" alt="Logo">
+        <div class="tabs">
+            <div class="tab" onclick="showContent('dashboard')">Dashboard</div>
+            <div class="tab" onclick="showContent('clients')">Clients</div>
+            <div class="tab" onclick="showContent('report')">Report</div>
+        </div>
+        <div class="profile" onclick="toggleProfileDropdown()">
+            <img id="profile-image" src="profileimage.jpg" alt="Profile Image">
+            <div class="profile-dropdown" id="profile-dropdown">
+                <a href="#">Profile</a>
+                <a href="#">Settings</a>
+                <a href="login.php">Logout</a>
+            </div>
+        </div>
+    </div>
+
+    <div id="dashboard" class="content active">
+        <h2>Dashboard</h2>
+        <div class="container">
+            <div class="panel">
+                <h2>Total Clients</h2>
+                <p>150</p>
+            </div>
+            <div class="panel">
+                <h2>New Interactions</h2>
+                <p>50</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="clients" class="content">
+        <h2>Clients</h2>
+        <div class="search-bar">
+            <input type="text" placeholder="Search Client">
+        </div>
+    
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Contact</th>
+                    <th>Last Interaction</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Kherleen Mae</td>
+                    <td>09785643734</td>
+                    <td>2024-05-22</td>
+                    <td><button class="btn btn-view">VIEW</button></td>
+                </tr>
+                <tr>
+                    <td>Jherald Keith</td>
+                    <td>09785643734</td>
+                    <td>2024-05-22</td>
+                    <td><button class="btn btn-view">VIEW</button></td>
+                </tr>
+                <tr>
+                    <td>Mary Joy</td>
+                    <td>09785643734</td>
+                    <td>2024-05-22</td>
+                    <td><button class="btn btn-view">VIEW</button></td>
+                </tr>
+                <tr>
+                    <td>Mariah Dacuma</td>
+                    <td>09785643734</td>
+                    <td>2024-05-22</td>
+                    <td><button class="btn btn-view">VIEW</button></td>
+                </tr>
+                <tr>
+                    <td>James Bautista</td>
+                    <td>09785643734</td>
+                    <td>2024-05-22</td>
+                    <td><button class="btn btn-view">VIEW</button></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div id="report" class="content">
+        <h2>Report</h2>
+        <div class="reportcontainer">
+            <form action="generate_report.php" method="post">
+                <label for="client_name">Client Name:</label>
+                <input type="text" id="client_name" name="client_name" required><br>
+                
+                <label for="start_date">Start Date:</label>
+                <input type="date" id="start_date" name="start_date" required><br>
+                
+                <label for="end_date">End Date:</label>
+                <input type="date" id="end_date" name="end_date" required><br>
+                
+                <button type="submit">Generate Report</button>
+            </form>
+        </div>
+        <div class="generated-reports">
+            <h3>Generated Reports</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Report Name</th>
+                        <th>Date Created</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Client Activity</td>
+                        <td>2024-04-26</td>
+                        <td><button>Download</button></td>
+                    </tr>
+                    <table>
+                        <button>Add New Interactions</button>
+                    </table>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script>
+        function showContent(contentId) {
+            // Hide all content divs
+            const contents = document.querySelectorAll('.content');
+            contents.forEach(content => content.classList.remove('active'));
+
+            // Remove selected class from all tabs
+            const tabs = document.querySelectorAll('.tab');
+            tabs.forEach(tab => tab.classList.remove('selected'));
+
+            // Show the selected content div
+            document.getElementById(contentId).classList.add('active');
+
+            // Add selected class to the clicked tab
+            event.currentTarget.classList.add('selected');
+        }
+
+        function toggleProfileDropdown() {
+            const dropdown = document.getElementById('profile-dropdown');
+            dropdown.style.display = dropdown.style.display === 'block' ? 'none' : 'block';
+        }
+
+        // Hide profile dropdown when clicking outside
+        document.addEventListener('click', function(event) {
+            const profile = document.querySelector('.profile');
+            const dropdown = document.getElementById('profile-dropdown');
+            if (!profile.contains(event.target)) {
+                dropdown.style.display = 'none';
+            }
+        });
+    </script>
+</body>
+</html>
+
+                   
