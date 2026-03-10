@@ -8,6 +8,10 @@ on:
     branches:
     - main
 
+# Permissions required for the GITHUB_TOKEN to push to the 'output' branch
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
