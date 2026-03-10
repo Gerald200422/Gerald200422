@@ -22,8 +22,8 @@
       <td width="50%">
         <ul>
           <li>🎓 <b>Student Developer</b> from the Philippines 🇵🇭</li>
-          <li>💻 Passionate about <b>Web Development & Interactive Projects</b></li>
-          <li>🎮 I love building <b>mini games and creative website UI experiences</b></li>
+          <li>💻 Passionate about <b>Mobile & Web Development & Interactive Projects</b></li>
+          <li>🎮 I love building <b>mini games and creative mobile & website UI experiences</b></li>
           <li>📚 Currently learning <b>TypeScript, React, Supabase, Firebase, Swift and system development</b></li>
           <li>⚡ Fun fact: <i>I enjoy turning ideas into working prototypes</i></li>
         </ul>
