@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Gerald Balete</h1>
-<h3 align="center">Student Developer | Web Developer | UI/UX Designer | Game Experimenter</h3>
+<h3 align="center">Student Software Developer | Web Developer | UI/UX Designer | Game Experimenter </h3>
 
 <p align="center">
 🚀 Building web apps, experimental games, and creative digital projects.
@@ -12,7 +12,7 @@
 - 🎓 Student Developer from the Philippines  
 - 💻 Passionate about **Web Development & Interactive Projects**  
 - 🎮 I love building **mini games and creative website UI experiences**  
-- 📚 Currently learning **TypeScript, React, SQL, PHP, and system development**  
+- 📚 Currently learning **TypeScript, React, Supabase, Firebase, and system development**  
 - ⚡ Fun fact: I enjoy turning ideas into working prototypes  
 
 ---
@@ -53,12 +53,7 @@
 
 ---
 
-## 🎮 Featured Projects
-
-### 🕹️ Web Mini Games
-- 🎯 Reaction Speed Game  
-- 🧠 Memory Card Game  
-- 🎲 Random Challenge Generator  
+## Featured Projects
 
 ### 🌐 Web Applications
 - 📊 Inventory & Sales Management System  
@@ -71,9 +66,8 @@
 
 ## 🚀 Current Projects
 
-- 🔧 Developing **Real-Time Inventory Tracking System**  
-- 🎮 Creating **JavaScript Mini Games**  
-- 🌐 Designing **Responsive Web Interfaces**  
+- 🔧 Improving **Real-Time Email Sender Autonomation System**  
+- 🌐 Designing & Coding **Loopwork Web Interfaces V2**  
 
 ---
 
