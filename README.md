@@ -69,14 +69,6 @@
 
 ---
 
-## 📊 GitHub Stats
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=gerald200422&show_icons=true&theme=tokyonight)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Gerald200422&layout=compact&theme=tokyonight)
-
----
-
 ## 🚀 Current Projects
 
 - 🔧 Developing **Real-Time Inventory Tracking System**  
