@@ -82,7 +82,7 @@
 ## 📈 GitHub Metrics
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Gerald200422&theme=tokyonight" alt="Gerald's Trophies" />
+  <img src="https://github-profile-trophy.deno.dev/?username=Gerald200422&theme=tokyonight" alt="Gerald's Trophies" />
 </p>
 
 <p align="center">
