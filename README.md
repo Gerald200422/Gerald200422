@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=3ECF8E&center=true&vCenter=true&width=435&lines=Hi+👋,+I'm+Gerald+Balete;Student+Software+Developer;Web+Developer;UI/UX+Designer;Game+Experimenter" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=3ECF8E&center=true&vCenter=true&width=435&lines=Hi+I'm+Gerald+Balete;Student+Software+Developer;Web+Developer;UI/UX+Designer;Game+Experimenter" alt="Typing SVG" />
 </h1>
 
 <p align="center">
