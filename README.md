@@ -63,20 +63,17 @@
 ### 🌐 Web Applications
 - 📊 Inventory & Sales Management System  
 - 🏥 Optical Clinic Tracking System  
-- 💼 Eli IT Solutions Management System  
+- 💼 Eli IT Solutions Management System 
+- 📧 Email Sender Automation System
 - 🎓 Educational Learning Platform  
 
 ---
 
 ## 📊 GitHub Stats
 
-<p align="center">
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=gerald200422&show_icons=true&theme=tokyonight)
 
-<img src="https://github-readme-stats.vercel.app/api?username=Gerald200422&show_icons=true&theme=tokyonight"/>
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Gerald200422&layout=compact&theme=tokyonight"/>
-
-</p>
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Gerald200422&layout=compact&theme=tokyonight)
 
 ---
 
