@@ -85,11 +85,11 @@
 
 ## 📈 GitHub Metrics
 
-
+<!--
 <p align="center">
   <img src="https://github-profile-trophy.deno.dev/?username=Gerald200422&theme=tokyonight" alt="Gerald's Trophies" />
 </p>
-
+-->
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=Gerald200422&theme=tokyonight" alt="Gerald's Streak" />
 </p>
