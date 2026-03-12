@@ -9,12 +9,12 @@
 </p>
 
 <p align="center">
-  🚀 Building web apps, experimental games, and creative digital projects.
+  Building web apps, experimental games, and creative digital projects.
 </p>
 
 ---
 
-## 🧠 About Me
+## About Me
 
 <div align="center">
   <table>
@@ -49,11 +49,11 @@
 
 ---
 
-# ⚡ Tech Stack
+# Tech Stack
 
 <div align="center">
 
-### 🎨 Frontend & Design
+### Frontend & Design
 ![HTML](https://img.shields.io/badge/HTML5-FF5722?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
@@ -64,7 +64,7 @@
 ![Android Studio](https://img.shields.io/badge/Android%20Studio-3DDC84?style=for-the-badge&logo=android-studio&logoColor=white)
 
 
-### ⚙️ Backend & Programming
+### Backend & Programming
 ![NodeJS](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
@@ -73,7 +73,7 @@
 ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
 ![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
 
-### 🗄️ Databases & Cloud
+### Databases & Cloud
 ![MySQL](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white)
 ![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white)
 ![Firebase](https://img.shields.io/badge/Firebase-039BE5?style=for-the-badge&logo=Firebase&logoColor=white)
@@ -83,7 +83,7 @@
 
 ---
 
-## 📈 GitHub Metrics
+## GitHub Metrics
 
 <!--
 <p align="center">
@@ -96,7 +96,7 @@
 
 ---
 
-## 🚀 Featured Projects
+## Featured Projects
 
 <div align="center">
 
@@ -112,7 +112,7 @@
 
 ---
 
-## 🌎 Connect With Me
+## Connect With Me
 
 <div align="center">
 
@@ -124,7 +124,7 @@
 
 ---
 
-## 📕 Guestbook
+## Guestbook
 
 <p align="center">
   <a href="https://github.com/Gerald200422/Gerald200422/issues/new?title=Hello+there!&labels=guestbook">
