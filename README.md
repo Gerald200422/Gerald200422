@@ -44,7 +44,7 @@
   <img src="https://raw.githubusercontent.com/Gerald200422/Gerald200422/output/github-contribution-grid-snake.svg" alt="Snake animation" />
 </p>
 <p align="center">
-  <i>(This snake eats my contribution graph!)</i>
+  <i>(This snake is eating my contribution graph, even though I don’t have that much, lol!)</i>
 </p>
 
 ---
