@@ -104,6 +104,10 @@
 ## 📈 GitHub Stats
 
 <p align="center">
+  <img src="https://github-profile-trophy.deno.dev/?username=Gerald200422&theme=tokyonight" alt="Gerald's Trophies" />
+</p>
+
+<p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=Gerald200422&show_icons=true&theme=tokyonight" alt="Gerald's Stats" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Gerald200422&layout=compact&theme=tokyonight" alt="Top Langs" />
 </p>
@@ -146,7 +150,7 @@
 
 <p align="center">
   <a href="https://github.com/Gerald200422/Gerald200422/issues/new?title=Hello+there!&labels=guestbook">
-    <img src="https://img.shields.io/badge/Sign%20my%20Guestbook-blue?style=for-the-badge&logo=guestbook" alt="Sign Guestbook" />
+    <img src="https://img.shields.io/badge/Sign%20my%20Guestbook-blue?style=for-the-badge&logo=github" alt="Sign Guestbook" />
   </a>
 </p>
 
