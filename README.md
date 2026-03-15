@@ -140,7 +140,7 @@
 
 [![Email](https://img.shields.io/badge/Email-geraldbalete123@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:geraldbalete123@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Coming%20Soon-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](#)
-[![Portfolio](https://img.shields.io/badge/Portfolio-Coming%20Soon-000000?style=for-the-badge&logo=googlechrome&logoColor=white)](#)
+[![Portfolio](https://img.shields.io/badge/Portfolio-baletegeraldportfolio.vercel.app-000000?style=for-the-badge&logo=googlechrome&logoColor=white)](https://baletegeraldportfolio.vercel.app)
 
 </div>
 
