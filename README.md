@@ -102,13 +102,15 @@
 ---
 
 ## 📈 GitHub Stats
-
+<!--
 <p align="center">
   <img src="https://github-profile-trophy.deno.dev/?username=Gerald200422&theme=tokyonight" alt="Gerald's Trophies" />
 </p>
-
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=Gerald200422&show_icons=true&theme=tokyonight" alt="Gerald's Stats" />
+</p>
+-->
+<p align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Gerald200422&layout=compact&theme=tokyonight" alt="Top Langs" />
 </p>
 
@@ -138,9 +140,9 @@
 
 <div align="center">
 
-[![Email](https://img.shields.io/badge/Email-geraldbalete123@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:geraldbalete123@gmail.com)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:geraldbalete123@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Coming%20Soon-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](#)
-[![Portfolio](https://img.shields.io/badge/Portfolio-baletegeraldportfolio.vercel.app-000000?style=for-the-badge&logo=googlechrome&logoColor=white)](https://baletegeraldportfolio.vercel.app)
+[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=googlechrome&logoColor=white)](https://baletegeraldportfolio.vercel.app)
 
 </div>
 
