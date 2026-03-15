@@ -4,8 +4,8 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" alt="Maintained" />
-  <img src="https://img.shields.io/github/followers/Gerald200422?label=Follow&style=social" alt="Followers" />
-  <img src="https://komarev.com/ghpvc/?username=Gerald200422&color=blue" alt="Visitor Count" />
+  <img src="https://img.shields.io/github/followers/geraldbalete?label=Follow&style=social" alt="Followers" />
+  <img src="https://komarev.com/ghpvc/?username=geraldbalete&color=blue" alt="Visitor Count" />
 </p>
 
 <p align="center">
@@ -22,14 +22,14 @@
       <td width="50%">
         <ul>
           <li>🎓 <b>Student Developer</b> from the Philippines 🇵🇭</li>
-          <li>💻 Passionate about <b>Mobile & Web Development & Interactive Projects</b></li>
-          <li>🎮 I love building <b>mini games and creative mobile & website UI experiences</b></li>
-          <li>📚 Currently learning <b>TypeScript, React, Supabase, Firebase, Swift and system development</b></li>
+          <li>💻 Passionate about <b>Web Development & Interactive Projects</b></li>
+          <li>🎮 I love building <b>mini games and creative website UI experiences</b></li>
+          <li>📚 Currently learning <b>TypeScript, React, Supabase, Firebase, and system development</b></li>
           <li>⚡ Fun fact: <i>I enjoy turning ideas into working prototypes</i></li>
         </ul>
       </td>
       <td width="50%" align="center">
-        <!-- Moving Coding Avatar -->
+        <!-- Placeholder for a Moving Avatar or Animation -->
         <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNHJmZzI0ZzRwNXIyeXN4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4JmVwPXYxX2ludGVybmFsX2dpZl9ieV9pZCZjdD1n/qgQUggAC3Pfv687qPC/giphy.gif" width="200" alt="Moving Coding Avatar" />
       </td>
     </tr>
@@ -38,13 +38,13 @@
 
 ---
 
-## The Mini-Game
+## 🎮 Contribution Snake (The Mini-Game)
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Gerald200422/Gerald200422/output/github-contribution-grid-snake.svg" alt="Snake animation" />
+  <img src="https://raw.githubusercontent.com/geraldbalete/geraldbalete/output/github-contribution-grid-snake.svg" alt="Snake animation" />
 </p>
 <p align="center">
-  <i>(This snake eats my contribution graph!)</i>
+  <i>(This snake eats my contribution graph! Note: This requires setting up a GitHub Action to generate the SVG.)</i>
 </p>
 
 ---
@@ -58,9 +58,14 @@
 ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)
+![Vue.js](https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D)
+![Three.js](https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=threedotjs&logoColor=white)
+![GSAP](https://img.shields.io/badge/GSAP-88CE02?style=for-the-badge&logo=greensock&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
 ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![Android Studio](https://img.shields.io/badge/Android%20Studio-3DDC84?style=for-the-badge&logo=android-studio&logoColor=white)
 
 
@@ -76,23 +81,31 @@
 ### 🗄️ Databases & Cloud
 ![MySQL](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white)
 ![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Firebase](https://img.shields.io/badge/Firebase-039BE5?style=for-the-badge&logo=Firebase&logoColor=white)
 ![Supabase](https://img.shields.io/badge/Supabase-181818?style=for-the-badge&logo=supabase&logoColor=white)
+
+### 📊 Data & Analytics
+![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=Tableau&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+
+### 🎮 Game Development
+![Godot](https://img.shields.io/badge/Godot-478CBF?style=for-the-badge&logo=GodotEngine&logoColor=white)
+
+### 🛠️ IDEs & Tools
+![PyCharm](https://img.shields.io/badge/PyCharm-143?style=for-the-badge&logo=pycharm&logoColor=black&color=black&labelColor=green)
+![NetBeans](https://img.shields.io/badge/NetBeans-1B6AC6?style=for-the-badge&logo=apache-netbeans-ide&logoColor=white)
+![JetBrains](https://img.shields.io/badge/JetBrains-000000?style=for-the-badge&logo=JetBrains&logoColor=white)
 
 </div>
 
 ---
 
-## 📈 GitHub Metrics
-
-<!--
-<p align="center">
-  <img src="https://github-profile-trophy.deno.dev/?username=Gerald200422&theme=tokyonight" alt="Gerald's Trophies" />
-</p>
--->
+## 📈 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Gerald200422&theme=tokyonight" alt="Gerald's Streak" />
+  <img src="https://github-readme-stats.vercel.app/api?username=geraldbalete&show_icons=true&theme=tokyonight" alt="Gerald's Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=geraldbalete&layout=compact&theme=tokyonight" alt="Top Langs" />
 </p>
 
 ---
@@ -122,19 +135,6 @@
 [![Portfolio](https://img.shields.io/badge/Portfolio-Coming%20Soon-000000?style=for-the-badge&logo=googlechrome&logoColor=white)](#)
 
 </div>
-
----
-
-## 📕 Guestbook
-
-<p align="center">
-  <a href="https://github.com/Gerald200422/Gerald200422/issues/new?title=Hello+there!&labels=guestbook">
-    <img src="https://img.shields.io/badge/Sign%20my%20Guestbook-blue?style=for-the-badge&logo=github" alt="Sign Guestbook" />
-  </a>
-</p>
-
-<!-- guestbook-start -->
-<!-- guestbook-end -->
 
 ---
 
