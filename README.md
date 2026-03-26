@@ -3,7 +3,7 @@
 </h1>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" alt="Maintained" />
+  <img src="https://img.shields.io/badge/Available%20for%20hire%3F-Indubitably!-green.svg" alt="Maintained" />
   <img src="https://img.shields.io/github/followers/Gerald200422?label=Follow&style=social" alt="Followers" />
   <img src="https://komarev.com/ghpvc/?username=Gerald200422&color=blue" alt="Visitor Count" />
 </p>
