@@ -123,7 +123,6 @@
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=Gerald200422&theme=tokyonight" alt="Gerald's Streak" />
 </p>
 -->
----
 
 ## 🚀 Featured Projects
 
