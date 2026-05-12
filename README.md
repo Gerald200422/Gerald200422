@@ -9,23 +9,23 @@
 </p>
 
 <p align="center">
-  🚀 Building web apps, experimental games, and creative digital projects.
+  Building web apps, experimental games, and creative digital projects.
 </p>
 
 ---
 
-## 🧠 About Me
+## About Me
 
 <div align="center">
   <table>
     <tr>
       <td width="50%">
         <ul>
-          <li>🎓 <b>Student Developer</b> from the Philippines 🇵🇭</li>
-          <li>💻 Passionate about <b>Web Development & Interactive Projects</b></li>
-          <li>🎮 I love building <b>mini games and creative website UI experiences</b></li>
-          <li>📚 Currently learning <b>AI,TypeScript, React, Supabase, Firebase, and system development</b></li>
-          <li>⚡ Fun fact: <i>I enjoy turning ideas into working prototypes</i></li>
+          <li><b>Student Developer</b> from the Philippines 🇵🇭</li>
+          <li>Passionate about <b>Web Development & Interactive Projects</b></li>
+          <li>I love building <b>mini games and creative website UI experiences</b></li>
+          <li>Currently learning <b>AI, Games, TypeScript, React, Firebase, and system development</b></li>
+          <li>Fun fact: <i>I enjoy turning ideas into working prototypes</i></li>
         </ul>
       </td>
       <td width="50%" align="center">
@@ -38,7 +38,7 @@
 
 ---
 
-## 🎮 Contribution Snake (The Mini-Game)
+## Contribution Snake (The Mini-Game)
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/Gerald200422/Gerald200422/output/github-contribution-grid-snake.svg" alt="Snake animation" />
@@ -49,11 +49,11 @@
 
 ---
 
-# ⚡ Tech Stack
+# Tech Stack
 
 <div align="center">
 
-### 🎨 Frontend & Design
+### Frontend & Design
 ![HTML](https://img.shields.io/badge/HTML5-FF5722?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
@@ -70,7 +70,7 @@
 ![Android Studio](https://img.shields.io/badge/Android%20Studio-3DDC84?style=for-the-badge&logo=android-studio&logoColor=white)
 
 
-### ⚙️ Backend & Programming
+### Backend & Programming
 ![NodeJS](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
@@ -79,22 +79,22 @@
 ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
 ![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
 
-### 🗄️ Databases & Cloud
+### Databases & Cloud
 ![MySQL](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white)
 ![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Firebase](https://img.shields.io/badge/Firebase-039BE5?style=for-the-badge&logo=Firebase&logoColor=white)
 ![Supabase](https://img.shields.io/badge/Supabase-181818?style=for-the-badge&logo=supabase&logoColor=white)
 
-### 📊 Data & Analytics
+### Data & Analytics
 ![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=Tableau&logoColor=white)
 ![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
 
-### 🎮 Game Development
+### Game Development
 ![Godot](https://img.shields.io/badge/Godot-478CBF?style=for-the-badge&logo=GodotEngine&logoColor=white)
 ![GDScript](https://img.shields.io/badge/GDScript-478CBF?style=for-the-badge&logo=godot-engine&logoColor=white)
 
-### 🛠️ IDEs & Tools
+### IDEs & Tools
 ![PyCharm](https://img.shields.io/badge/PyCharm-143?style=for-the-badge&logo=pycharm&logoColor=black&color=black&labelColor=green)
 ![NetBeans](https://img.shields.io/badge/NetBeans-1B6AC6?style=for-the-badge&logo=apache-netbeans-ide&logoColor=white)
 ![JetBrains](https://img.shields.io/badge/JetBrains-000000?style=for-the-badge&logo=JetBrains&logoColor=white)
@@ -103,7 +103,7 @@
 
 ---
 
-## 📈 GitHub Stats
+## GitHub Stats
 
 <p align="center">
   <img src="https://github-profile-trophy.deno.dev/?username=Gerald200422&theme=tokyonight" alt="Gerald's Trophies" />
@@ -124,11 +124,11 @@
 </p>
 -->
 
-## 🚀 Featured Projects
+## Featured Projects
 
 <div align="center">
 
-| 🌐 Web Application | 🛠️ Implementation |
+| Web Application | Implementation |
 | :--- | :--- |
 | **Inventory & Sales Management** | Efficient stock & transaction tracking |
 | **Optical Clinic Tracking** | Patient records & prescription management |
@@ -140,7 +140,7 @@
 
 ---
 
-## 🌎 Connect With Me
+## Connect With Me
 
 <div align="center">
 
@@ -152,7 +152,7 @@
 
 ---
 
-## 📕 Guestbook
+## Guestbook
 
 <p align="center">
   <a href="https://github.com/Gerald200422/Gerald200422/issues/new?title=Hello+there!&labels=guestbook">
@@ -166,5 +166,5 @@
 ---
 
 <p align="center">
-  ⭐ <i>Check out my repositories and feel free to collaborate!</i>
+  <i>Check out my repositories and feel free to collaborate!</i>
 </p>
