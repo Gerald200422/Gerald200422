@@ -118,11 +118,10 @@
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Gerald200422&layout=compact&theme=tokyonight" alt="Top Langs" />
 </p>
 -->
-<!--
+
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=Gerald200422&theme=tokyonight" alt="Gerald's Streak" />
 </p>
--->
 
 ## Featured Projects
 
