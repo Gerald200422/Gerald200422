@@ -131,7 +131,6 @@
 | :--- | :--- |
 | **Inventory & Sales Management** | Efficient stock & transaction tracking |
 | **Optical Clinic Tracking** | Patient records & prescription management |
-| **Eli IT Solutions** | Comprehensive management suite |
 | **Email Sender Automation** | Streamlined bulk email workflows |
 | **Educational Platform** | Interactive learning environment |
 
