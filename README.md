@@ -132,6 +132,7 @@
 | **Inventory & Sales Management** | Efficient stock & transaction tracking |
 | **Optical Clinic Tracking** | Patient records & prescription management |
 | **Email Sender Automation** | Streamlined bulk email workflows |
+| **SuitEasy** | Incoming... |
 
 </div>
 
