@@ -21,7 +21,7 @@
     <tr>
       <td width="50%">
         <ul>
-          <li><b>Student Developer</b> from the Philippines 🇵🇭</li>
+          <li><b>Student Developer</b> from the Philippines </li>
           <li>Passionate about <b>Web Development & Interactive Projects</b></li>
           <li>I love building <b>mini games and creative website UI experiences</b></li>
           <li>Currently learning <b>AI, Games, TypeScript, React, Firebase, and system development</b></li>
@@ -129,10 +129,9 @@
 
 | Web Application | Implementation |
 | :--- | :--- |
-| **Inventory & Sales Management** | Efficient stock & transaction tracking |
-| **Optical Clinic Tracking** | Patient records & prescription management |
+| **North Vision Optical Clinic System** | Patient records & prescription management |
 | **Email Sender Automation** | Streamlined bulk email workflows |
-| **SuitEase** | Incoming... |
+| **SuitEase** | Coming soon... |
 
 </div>
 
