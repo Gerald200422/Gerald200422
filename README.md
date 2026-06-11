@@ -130,6 +130,7 @@
 | Web Application | Implementation |
 | :--- | :--- |
 | **North Vision Optical Clinic System** | Patient records & prescription management |
+| **EduQualitech System** | Collaborative Academic Ecosystem |
 | **Email Sender Automation** | Streamlined bulk email workflows |
 | **Online Loopwork Website** | Unified Multitasking & Productivity Suite |
 | **SuitEase** | Coming soon... |
