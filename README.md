@@ -113,7 +113,6 @@
   <img src="https://github-readme-stats.vercel.app/api?username=Gerald200422&show_icons=true&theme=tokyonight" alt="Gerald's Stats" />
 </p>
 -->
-<!--
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Gerald200422&layout=compact&theme=tokyonight" alt="Top Langs" />
 </p>
