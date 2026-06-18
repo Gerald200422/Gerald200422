@@ -21,7 +21,7 @@
     <tr>
       <td width="50%">
         <ul>
-          <li><b>Student Developer</b> from the Philippines </li>
+          <li><b>Software Developer</b> from the Philippines </li>
           <li>Passionate about <b>Web Development & Interactive Projects</b></li>
           <li>I love building <b>mini games and creative website UI experiences</b></li>
           <li>Currently learning <b>AI, Games, TypeScript, React, and system development</b></li>
@@ -116,7 +116,7 @@
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Gerald200422&layout=compact&theme=tokyonight" alt="Top Langs" />
 </p>
--->
+
 
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=Gerald200422&theme=tokyonight" alt="Gerald's Streak" />
