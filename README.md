@@ -21,10 +21,10 @@
     <tr>
       <td width="50%">
         <ul>
-          <li><b>Software Developer</b> from the Philippines </li>
+          <li><b>Full Stack Software Developer</b> from the Philippines </li>
           <li>Passionate about <b>Web Development & Interactive Projects</b></li>
           <li>I love building <b>mini games and creative website UI experiences</b></li>
-          <li>Currently learning <b>AI, Games, TypeScript, React, and system development</b></li>
+          <li>Currently learning <b>AI, Games, TypeScript, React, and System Development</b></li>
           <li>Fun fact: <i>I enjoy turning ideas into working prototypes</i></li>
         </ul>
       </td>
@@ -197,9 +197,6 @@
     <img src="https://img.shields.io/badge/Sign%20my%20Guestbook-blue?style=for-the-badge&logo=github" alt="Sign Guestbook" />
   </a>
 </p>
-
-<!-- guestbook-start -->
-<!-- guestbook-end -->
 
 ---
 
