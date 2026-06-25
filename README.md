@@ -202,6 +202,6 @@
 <p align="center">
   <i>Thanks for visiting my profile — feel free to connect or leave a note in the guestbook!</i>
 </p>
-
+<p align="center">
   <i>Check out my repositories and feel free to collaborate!</i>
 </p>
