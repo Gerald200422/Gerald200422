@@ -24,7 +24,7 @@
           <li><b>Full Stack Software Developer</b> from the Philippines </li>
           <li>Passionate about <b>Web Development & Interactive Projects</b></li>
           <li>I love building <b>mini games and creative website UI experiences</b></li>
-          <li>Currently learning <b>AI, Games, TypeScript, React, and System Development</b></li>
+          <li>Currently learning <b>AI, Games, TypeScript, and System Development</b></li>
           <li>Fun fact: <i>I enjoy turning ideas into working prototypes</i></li>
         </ul>
       </td>
