@@ -25,7 +25,7 @@
           <li>Passionate about <b>Web Development & Interactive Projects</b></li>
           <li>I love building <b>mini games and creative website UI experiences</b></li>
           <li>Currently learning <b>AI, Games, TypeScript, and System Development</b></li>
-          <li>Fun fact: <i>I enjoy turning ideas into working prototypes</i></li>
+          <li>Fun fact: <i>I specialize in converting prototypes into robust, production‑ready websites and apps</i></li>
         </ul>
       </td>
       <td width="50%" align="center">
